@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "Le Palme ",
+  "address": {
+    "addressLocality": "Aalen",
+    "adressStreet": "Hauptstraﬂe 1",
+    "postalCode": "73433",
+    "addressCountry": "DE"
+  },
+  "mealcardUrl": "http://www.pizzahaus-le-palme.de/files/media/cdn.php?params=%7B%22id%22%3A%22MDB-f567ad8a-df1e-49dc-a8d7-2ec48311d931-MDB%22%2C%22type%22%3A%22stream%22%2C%22date%22%3A%221589530275%22%7D&RZ_LePlame_Speisekarte2019_DE_07I19_blanko_Web.pdf",
+  "Phonenumber": "0123456789",
+  "Email": "@lePalme",
+  "image": "",
+  "telephone": "0123456789",
+  "url": "http://www.pizzahaus-le-palme.de/files/media/cdn.php?params=%7B%22id%22%3A%22MDB-f567ad8a-df1e-49dc-a8d7-2ec48311d931-MDB%22%2C%22type%22%3A%22stream%22%2C%22date%22%3A%221589530275%22%7D&RZ_LePlame_Speisekarte2019_DE_07I19_blanko_Web.pdf",
+  "aggregateRating": {
+    "reviewCount": 176,
+    "@type": "AggregateRating",
+    "ratingValue": 4.5
+  },
+  "priceRange": "Ä"
+}

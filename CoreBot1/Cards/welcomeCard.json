@@ -1,0 +1,65 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{Adresse}"
+            },
+            {
+              "type": "TextBlock",
+              "text": "${name}",
+              "weight": "Bolder",
+              "size": "ExtraLarge",
+              "spacing": "None"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "${image}",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "MealCard",
+          "type": "Action.OpenUrl",
+          "value": "${mealcardUrl}"
+        },
+        {
+          "title": "Phone",
+          "value": "${Phonenumber}"
+        },
+        {
+          "title": "E-mail",
+          "value": "${Email}"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Order now",
+      "url": "${url}"
+    }
+  ]
+}
